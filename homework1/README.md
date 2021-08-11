@@ -74,7 +74,6 @@
   - surname - фамилия
   - patronymic - отчество
   - telephone - телефонный номер
-  - username - логин
   - password - пароль
   - email - электронная почта
   - rolesIds - тип ролей пользователя
