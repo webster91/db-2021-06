@@ -1,0 +1,18 @@
+docker search postgres
+
+docker pull  postgres
+
+docker images
+
+docker run --rm --name postgres -e POSTGRES_PASSWORD=qwe -d -p 5432:5432 postgres
+
+docker ps
+
+docker exec -it postgres bash
+
+su postgres
+
+mkdir /var/lib/postgresql/data/1
+mkdir /var/lib/postgresql/data/2
+
+psql
