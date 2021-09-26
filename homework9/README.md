@@ -18,7 +18,7 @@
 Поднять сервис mydb можно командой:
 
 ````
-docker-compose up -d mydb
+docker-compose up --remove-orphans -d mydb 
 ````
 
 Для подключения к БД используйте команду:
